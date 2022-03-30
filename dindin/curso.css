@@ -1,0 +1,90 @@
+.container_1{
+    display: flex;
+
+}
+
+h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    width: 317px;
+    height: 23px;
+    color: #FF4081;
+    margin:81px 0 0 82px;
+}
+h5{
+    font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+width: 317px;
+height: 23px;
+color: #555555;
+margin-left: 82px;
+}
+
+main ul li{
+    list-style: none;
+
+}
+
+main a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+#linha{
+    background: #C4C4C4;
+    width: 1344px;
+    height: 5px;
+    margin-left: 82px;
+    margin-top: 68px;
+}
+
+.second{
+    display: flex;
+
+}
+.botao{
+    margin-top: 300px;
+}
+
+.link_botao a{
+    background: #419488;
+    border-radius: 62px;
+    padding: 14px 41px;
+    margin-left:-770px;
+}
+
+.second img{
+    color: #2D2D2D;
+    border: 1px solid transparent;
+    margin: 107px 53px 93px 112px;
+}
+
+.second h3{
+    font-weight: 700;
+    font-size: 35px; 
+    color: #FF4081;
+    width: 473px;
+    height: 40px;
+    text-align:left;
+    margin: 108px 0 37px 26px;
+}
+
+.second p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    width: 724px;
+    height: 105px;
+    color: #000000;
+    margin-top:37px;
+    margin-left:-466px ;
+    padding-top: 140px;
+    
+}
