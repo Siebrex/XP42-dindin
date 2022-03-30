@@ -1,0 +1,127 @@
+body{
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+header{
+    background:#2E948A;
+    display: flex;
+    justify-content:center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header h2 a{
+    display: block;
+    color: transparent;
+    background: url(logo.png) 0 0 no-repeat;
+    width: 244px;
+    height: 77px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav a{
+    color: #FDFDFD;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0 10px;
+  
+}
+
+footer{
+    background: #419488;
+    display: flex;
+    justify-content:center;
+}
+
+footer h2 a{
+    display: block;
+    color: transparent;
+    background: url(log_footer.png) 0 0 no-repeat;
+    width: 312px;
+    height: 102px;
+    margin-left: 10%;
+    margin-top: 53px;
+}
+
+footer ul{
+    margin: 53px 0;
+    padding: 0;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer a{
+    color: #FDFDFD;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: lowercase;
+    line-height: 28px;
+}
+
+.ul_meio{
+    margin: 70px 0;
+}
+
+.container{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    padding: 0 20px;
+}
+
+.link_footer a{
+    display: block;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 62px;
+    padding: 14px 41px;
+    margin: 0 130px 14px 0 ; 
+}
+
+
+
+@media only screen and (max-width: 769px) {
+    .container{
+        width: 720px;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer h2{
+        margin: 0 30px 0 0;
+    }
+    
+}
+
+@media only screen and (max-width: 481px) {
+    .container{
+        width: 460px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header h2{
+        margin: 10px 0;
+    }
+
+}
